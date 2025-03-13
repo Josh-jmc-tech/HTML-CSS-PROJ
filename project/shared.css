@@ -143,7 +143,7 @@ section {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color:#deb887;
     letter-spacing: 5pt;
@@ -152,8 +152,8 @@ section {
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
-    font-weight: 900;
-    border: 5px double #deb887;
+    font-weight: 1000;
+    border: 10px double #deb887;
     padding: 10px;
 }
 
