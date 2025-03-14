@@ -1,0 +1,26 @@
+/* Basic Styles*/
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ece8e2;
+    font-size: 14px;
+    margin: auto;
+    color: #000;
+    line-height: 1.4;
+}
+
+.container {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+
+.layout {
+    align-content: center;
+}
