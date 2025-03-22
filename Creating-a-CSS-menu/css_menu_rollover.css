@@ -20,7 +20,7 @@ body {
 .menu {
     font: bold 12px/18px sans-serif;
     text-align: center;
-    display: inline;
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
