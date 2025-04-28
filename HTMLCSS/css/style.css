@@ -74,12 +74,6 @@ th {
     font-weight: bolder;
 }
 
-.img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 /*end of container*/
 
 /*navbar designs start*/
@@ -118,6 +112,8 @@ th {
 
 .navbar a:hover {
     background-color: #A2E982;
+    border-radius: 12px;
+    transition: .5 ease;
 }
 
 
@@ -183,10 +179,18 @@ ul {
 /*video starting today*/
 
 video {
+    display: block;
     padding-top: 0;
-    margin-left: 68px;
-    margin-top: 20px;
-    width: 500px;
-    border-radius: 12px;
-    
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 300px;
+}
+
+.youtube-video {
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 0;
 }
