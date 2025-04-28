@@ -1,0 +1,190 @@
+/* === Global Styles === */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #f9f9f9;
+	color: #333;
+	line-height: 1.6;
+}
+
+/* === Navigation Bar === */
+.nav {
+	background-color: #004080;
+	padding: 15px 0;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+	color: #66ccff;
+}
+
+/* === Home Section === */
+#home {
+	background: linear-gradient(to right, #66ccff, #0099ff);
+	color: white;
+	text-align: center;
+	padding: 100px 20px;
+}
+
+#home h2 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+#home p {
+	font-size: 24px;
+}
+
+/* === Gallery Section === */
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.photo {
+	text-align: center;
+	max-width: 300px;
+	margin: 0 20px;
+}
+
+.photo img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	transition: transform 0.3s ease;
+}
+
+.photo img:hover {
+	transform: scale(1.05);
+}
+
+.photo h3 {
+	margin-top: 15px;
+	color: #004080;
+}
+
+.photo p {
+	color: #555;
+	font-style: italic;
+}
+
+/* === Video Section === */
+.video {
+	display: flex;
+	justify-content: center;
+	background-color: #eef6fb;
+	padding: 60px 20px;
+}
+
+.video iframe {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+/* === Contact Form === */
+.layout {
+	background-color: #e6f2ff;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.layout h2 {
+	color: #004080;
+	margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+	display: block;
+	width: 80%;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form input[type="submit"] {
+	background-color: #004080;
+	color: white;
+	border: none;
+	padding: 12px 30px;
+	border-radius: 5px;
+	margin-top: 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0066cc;
+}
+
+.terms {
+	display: block;
+	margin: 15px 0;
+	color: #333;
+	font-size: 14px;
+}
+
+/* === Footer === */
+footer {
+	background-color: #004080;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 14px;
+	margin-top: 40px;
+}
+
+/* === Lightbox === */
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+	margin: auto;
+	display: block;
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 35px;
+	color: white;
+	font-size: 40px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.close:hover {
+	color: #ccc;
+}
