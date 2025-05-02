@@ -4,4 +4,11 @@ This file is going to be a storage for all the activities and challenges/project
 -Projects-
 
 Travella tours site
-BOOTSRAP site
+Bootstrap Site
+
+<hr>
+there are some small projects i made  
+PIZZA MENU 
+TIC TAC TOE GAME
+CALCULATOR
+
