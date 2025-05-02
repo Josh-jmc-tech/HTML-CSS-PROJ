@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<script>
-alert("Hello, World!");
-</script>
-
-	</head><body><main>
-		<h1>Joshua Baldon</h1>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script>alert("Hello, World!");</script>
+		<h1 style="font-size: 10vw;">Joshua Baldon</h1>
 		<font color="red" face="impact" size="2">Let's try this!</font>
-	</main>
 
+		<script>
+			function validateForm() {
+			  let x = document.forms["myForm"]["fname"].value;
+			  if (x == "") {
+				alert("Name must be filled out");
+				return false;
+			  }
+			}
+		</script>
+		
+</head>
+
+<body>
 <p><font color="FFD700" face="comic sans MS" size="6">Let's make a better place</font></p>
 
 <p>
@@ -18,5 +29,21 @@ alert("Hello, World!");
 	<p> Adding another Bill</p>
 <p><b>this is bold, </b><i>this is italicized,</i><u>this is underlined</u></p>
 <img src="kalabaw.jpg" alt="mag bayad ka kasi ng bill">
+
+<form action="/action_page.php">
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname" value="Joshua"><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname" value="Baldon"><br><br>
+	<input type="submit" value="Submit">
+  </form> 
+
+  <h2>JavaScript Validation</h2>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
