@@ -5,9 +5,10 @@ This file is going to be a storage for all the activities and challenges/project
 
 C# Projects > Small projects using c# and .NetFramework
 -Car Insurance
->
+>This project is an mvc web application that mimics a car insurance website. It takes user's input on policy information and calculates qoutes based on business logic.
 -NFL Stats
->
+>Data Visualization Application
+>meant to store and display stats
 
 
 
